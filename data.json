@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "Nguyễn Văn Đực",
+        "status" : false
+    },
+    {
+        "name" : "Trần Thị Cái",
+        "status" : false
+    },
+    {
+        "name" : "Tom Cat",
+        "status" : true
+    },
+    {
+        "name" : "Jerry Mouse",
+        "status" : true
+    },
+    {
+        "name" : "Spike Bulldog",
+        "status" : false
+    },
+    {
+        "name" : "Tyke Bulldog",
+        "status" : true
+    },
+    {
+        "name" : "Butch Cat",
+        "status" : true
+    },
+    {
+        "name" : "Nibble Mouse",
+        "status" : true
+    },
+    {
+        "name" : "Quacker",
+        "status" : true
+    }
+]

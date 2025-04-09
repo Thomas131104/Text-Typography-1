@@ -16,11 +16,13 @@ Dự án này tạo ra một giao diện người dùng đơn giản, sử dụn
 
 ```
 .
-├── index.html         # Trang HTML chính
-├── style.css          # Tệp CSS để thiết kế giao diện
-├── modules            # Thư mục chứa các module JS
-│   ├── themeSwitcher.js       # Xử lý sự kiện thay đổi màu nền trang
-│   └── tableProcessing.js # Xử lý sự kiện thay đổi kiểu bảng
+├── index.html             # Trang HTML chính
+├── style.css              # Tệp CSS để thiết kế giao diện
+├── data.json              # Tệp JSON chứa dữ liệu các thí sinh
+├── modules                # Thư mục chứa các module JS
+│   ├── themeSwitcher.js   # Xử lý sự kiện thay đổi màu nền trang
+│   ├── tableProcessing.js # Xử lý sự kiện thay đổi kiểu bảng
+|   └── tableUpdating.js   # Thay đổi thông tin trong bảng mỗi khi cập nhật
 ```
 
 ### Cài Đặt
@@ -58,9 +60,12 @@ Khi người dùng nhấn nút Chọn, các class CSS sẽ được áp dụng l
 Các tệp CSS xác định cách bố trí giao diện của trang web, bao gồm việc tạo một lưới (grid) cho các phần tử và thiết lập các kiểu cho bảng và các phần tử khác.
 
 5. JavaScript Modules
+
 themeSwitcher.js: Quản lý sự kiện thay đổi màu nền trang và các phần tử trong grid.
 
 tableProcessing.js: Quản lý sự kiện thay đổi các kiểu bảng khi người dùng chọn các checkbox.
+
+tableUpdating.js: Hiển thị bảng từ data.json
 
 ### Cách Thực Thi
 
